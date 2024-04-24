@@ -22,7 +22,7 @@ const bday = document.querySelector("#bday");
 
 const kartuUcapan = document.querySelector(".kartu-ucapan");
 const kartuUcapanContainer = document.querySelector(".kartu-ucapan .container");
-
+audio.play();
 checkboxes.forEach((checkbox) => {
   checkbox.addEventListener("change", () => {
     checkboxes[0].checked
