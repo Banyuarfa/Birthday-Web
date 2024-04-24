@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Zahara!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio
+      class="birthday-backsound"
+      src="./assets/Birthday_Song.mp3"
+      controls
+      autoplay
+      loop
+    ></audio>
+    <audio id="cry" src="./assets/Cry.mp3"></audio>
+    <audio id="laugh" src="./assets/Laugh.mp3"></audio>
+    <audio id="bday" src="./assets/8bit-bday.wav"></audio>
+    <img class="decoration" src="./assets/Decoration.png" alt="" />
+    <div class="party">
+      <div class="container">
+        <img class="keysha" src="./assets/Keysha.png" alt="" />
+        <img class="zahara" src="./assets/Zahara.png" alt="" />
+        <img class="luthfiyah" src="./assets/Luthfiyah.png" alt="" />
+        <img class="banyu" src="./assets/Banyu.png" alt="" />
+        <img class="cake" src="./assets/Cake.png" alt="" />
+        <img class="ezar" src="./assets/Ezar.png" alt="" />
+      </div>
+    </div>
+    <div class="start-button">
+      <button class="mulai" value="false">Mulai</button>
+      <br /><br />
+      <button class="undang">Undang</button>
+    </div>
+    <div class="invite-box">
+      <div class="container">
+        <h1>Undang Temanmu</h1>
+        <ul class="teman">
+          <li>
+            <input type="checkbox" name="banyu" id="banyu" value="banyu" />
+            <label for="banyu">Banyu</label>
+          </li>
+          <li>
+            <input type="checkbox" name="keysha" id="keysha" />
+            <label for="keysha">Keysha</label>
+          </li>
+          <li>
+            <input type="checkbox" name="ezar" id="ezar" />
+            <label for="ezar">Ezar</label>
+          </li>
+          <li>
+            <input type="checkbox" name="luthfiyah" id="luthfiyah" />
+            <label for="luthfiyah">Luthfiyah</label>
+          </li>
+        </ul>
+        <button class="undang-inbox">Undang</button>
+      </div>
+    </div>
+    <div class="kartu-ucapan">
+      <div class="container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
