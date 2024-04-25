@@ -6,8 +6,7 @@
 body {
   background-color: rgb(243, 150, 255);
   display: flex;
-  height: 40rem;
-  width: 100%;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -23,7 +22,9 @@ audio {
   width: 15rem;
   z-index: 1;
 }
-
+.wrapper {
+  padding: 4.15rem 0;
+}
 .party .container {
   width: 100%;
   display: grid;
@@ -76,7 +77,7 @@ audio {
 .start-button{
   display: flex;
   flex-direction: column;
-  
+
 }
 .start-button button {
   font-size: 1.5rem;
