@@ -26,7 +26,6 @@ audio {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .audio {
   display: none;

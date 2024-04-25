@@ -24,7 +24,7 @@ const kartuUcapan = document.querySelector(".kartu-ucapan");
 const kartuUcapanContainer = document.querySelector(".kartu-ucapan .container");
 setTimeout(() => {
   audio.play();
-}, 100)
+}, 100);
 
 checkboxes.forEach((checkbox) => {
   checkbox.addEventListener("change", () => {
@@ -216,10 +216,9 @@ startButton.addEventListener("click", () => {
         });
       }, 5000);
     } else {
-      
       setTimeout(() => {
         const cry = document.getElementById("cry");
-        cry.play()
+        cry.play();
         kartuUcapan.style.display = "block";
         const h1 = document.createElement("h1");
         h1.textContent = "Nobar Ending";
