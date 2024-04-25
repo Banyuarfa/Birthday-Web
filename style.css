@@ -3,14 +3,6 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: rgb(243, 150, 255);
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 audio {
   display: none;
 }
@@ -23,7 +15,17 @@ audio {
   z-index: 1;
 }
 .wrapper {
-  padding: 4.15rem 0;
+  background-color: rgb(243, 150, 255);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.audio {
+  display: none;
+  position: absolute;
 }
 .party .container {
   width: 100%;
@@ -33,6 +35,7 @@ audio {
 .party .container img {
   width: 10rem;
   position: relative;
+  margin: auto;
 }
 .ezar {
   visibility: hidden;
@@ -74,10 +77,9 @@ audio {
 .start-none {
   display: none;
 }
-.start-button{
+.start-button {
   display: flex;
   flex-direction: column;
-
 }
 .start-button button {
   font-size: 1.5rem;
@@ -132,7 +134,8 @@ audio {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.invite-box button:hover, .invite-box button:active {
+.invite-box button:hover,
+.invite-box button:active {
   background-color: #fff;
 }
 .invite-box .container .teman {
@@ -150,7 +153,6 @@ audio {
 
 .kartu-ucapan-active {
   display: flex;
-  
 }
 .kartu-ucapan {
   background-color: rgb(0, 0, 0, 0.5);
