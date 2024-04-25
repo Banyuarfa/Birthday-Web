@@ -5,6 +5,8 @@
 }
 body {
   overflow: hidden;
+  width: fit-content;
+  height: fit-content;
 }
 audio {
   display: none;
