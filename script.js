@@ -22,7 +22,10 @@ const bday = document.querySelector("#bday");
 
 const kartuUcapan = document.querySelector(".kartu-ucapan");
 const kartuUcapanContainer = document.querySelector(".kartu-ucapan .container");
-audio.play();
+setTimeout(() => {
+  audio.play();
+}, 100)
+
 checkboxes.forEach((checkbox) => {
   checkbox.addEventListener("change", () => {
     checkboxes[0].checked
@@ -204,6 +207,26 @@ startButton.addEventListener("click", () => {
         const p = document.createElement("p");
         p.textContent =
           "Luthfiyah merasa senang diundang oleh Zahara. Tiba-tiba Luthfiyah mengajak Zahara untuk menonton anime bareng. Zahara pun mengiyakan. Banyu sedang nolep. Ezar sedang berenang. Keysha sedang latihan paskibra.";
+        kartuUcapanContainer.append(p);
+        const btn = document.createElement("button");
+        btn.textContent = "Kembali";
+        kartuUcapanContainer.append(btn);
+        btn.addEventListener("click", () => {
+          window.location.reload();
+        });
+      }, 5000);
+    } else {
+      
+      setTimeout(() => {
+        const cry = document.getElementById("cry");
+        cry.play()
+        kartuUcapan.style.display = "block";
+        const h1 = document.createElement("h1");
+        h1.textContent = "Nobar Ending";
+        kartuUcapanContainer.append(h1);
+        const p = document.createElement("p");
+        p.textContent =
+          "Zahara kecewa dengan teman-temannya karena mereka sering membully Zahara. Zahara pun depresi dan menangis di kamarnya";
         kartuUcapanContainer.append(p);
         const btn = document.createElement("button");
         btn.textContent = "Kembali";
