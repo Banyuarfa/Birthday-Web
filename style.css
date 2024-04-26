@@ -33,7 +33,7 @@ audio {
   position: absolute;
 }
 .party .container {
-  width: 23rem;
+  width: 22rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
