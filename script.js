@@ -217,7 +217,7 @@ startButton.addEventListener("click", () => {
         cry.play();
         kartuUcapan.style.display = "block";
         const h1 = document.createElement("h1");
-        h1.textContent = "Nobar Ending";
+        h1.textContent = "Sad Ending";
         kartuUcapanContainer.append(h1);
         const p = document.createElement("p");
         p.textContent =
